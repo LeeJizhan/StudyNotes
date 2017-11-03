@@ -1,6 +1,6 @@
 ------
 LauncherActivity代码
-<em>package jack.stu.com.androidclass;
+*package jack.stu.com.androidclass;
 
 import android.app.ExpandableListActivity;
 import android.app.LauncherActivity;
@@ -30,7 +30,7 @@ public class MainActivity extends LauncherActivity {
         return new Intent(MainActivity.this,classes[position]);
     }
 }
-</em>
+*
 ------
 ExpandableListActivity代码
 <em>

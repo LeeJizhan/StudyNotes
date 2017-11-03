@@ -1,6 +1,6 @@
 ------
 LauncherActivity代码
-*package jack.stu.com.androidclass;
+*package jack.stu.com.androidclass;*
 
 import android.app.ExpandableListActivity;
 import android.app.LauncherActivity;

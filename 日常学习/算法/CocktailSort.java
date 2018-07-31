@@ -27,7 +27,7 @@ public class CocktailSort {
          * 鸡尾酒排序步骤
          * 1.
          */
-        for (int i = 0; i < arr.length / 2 - 1; i++) {
+        for (int i = 0; i < arr.length / 2; i++) {
             boolean isSorted = true;
             //从左向右
             for (int j = leftBorden; j < rightBorden; j++) {
@@ -42,6 +42,7 @@ public class CocktailSort {
             rightBorden = rightLastIndex;
             if (isSorted)
                 break;
+			isSorted = true;
             //从右向左
             for (int j = rightBorden; j > leftBorden; j--) {
                 if (arr[j] < arr[j - 1]) {
